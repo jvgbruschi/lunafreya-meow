@@ -2,7 +2,7 @@
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #e5e7eb
+    border-color: #000000
 }
 
 :before,:after {
@@ -167,12 +167,12 @@ textarea {
 
 input::-moz-placeholder,textarea::-moz-placeholder {
     opacity: 1;
-    color: #af9cad
+    color: #000000
 }
 
 input::placeholder,textarea::placeholder {
     opacity: 1;
-    color: #af9cae
+    color: #000000
 }
 
 button,[role=button] {
@@ -221,8 +221,8 @@ img,video {
     --tw-numeric-fraction: ;
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-offset-color: #000000;
+    --tw-ring-color: rgba(0, 0, 0, 0.5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -271,8 +271,8 @@ img,video {
     --tw-numeric-fraction: ;
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-offset-color: #000000;
+    --tw-ring-color: rgba(0, 0, 0, 0.5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -401,12 +401,12 @@ img,video {
 
 .border-\[\#c6a0f6\] {
     --tw-border-opacity: 1;
-    border-color: rgb(198 160 246 / var(--tw-border-opacity))
+    border-color: rgb(266 000 000 / var(--tw-border-opacity))
 }
 
 .border-pink-300 {
     --tw-border-opacity: 1;
-    border-color: rgb(249 168 212 / var(--tw-border-opacity))
+    border-color: rgb(266 000 000 / var(--tw-border-opacity))
 }
 
 .bg-\[\#363a4f\] {
@@ -466,7 +466,7 @@ img,video {
 
 .text-pink-200 {
     --tw-text-opacity: 1;
-    color: rgb(251 207 232 / var(--tw-text-opacity))
+    color: rgb(266 000 000 / var(--tw-text-opacity))
 }
 
 .text-white {
@@ -490,12 +490,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #3a0637;
+    background-image: url('https://preview.redd.it/mypq0h5zbrj61.png?auto=webp&s=876c5679315bf348828a1fe15a3c6ba425f47bb0');
+    background-size: cover;
     font-family: JetBrains Mono,monospace
 }   
 
 hr[data-astro-cid-j7pv25f6] {
     border: none;
-    border-top: 1px solid #f6a0d2;
+    border-top: 1px solid #000000;
     margin: 20px 0
 }
